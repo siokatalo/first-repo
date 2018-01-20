@@ -1,0 +1,10 @@
+var counter = 0;
+            while(true)
+            {
+                Console.WriteLine("Infinity");
+                counter += 8;
+                if (counter % 128 == 0)
+                {
+                    break;
+                }
+            }
